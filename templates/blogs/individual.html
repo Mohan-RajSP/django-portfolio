@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ blog.title}}</title>
+</head>
+<body>
+<p>Blog {{ blog.title }}</p>
+             <div class="container">
+            <p> {{ blog.title }}</p>
+                <p> {{ blog.content }}</p>
+                 <img class="card-img-top img-fluid" src="{{ blog.image.url }}"/>
+                 <br />
+                 <p class="text-centered"> {{ blog.published_date }}</p>
+
+                 </div>
+        <hr />
+</body>
+</html>
